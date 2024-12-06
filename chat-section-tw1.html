@@ -1,0 +1,346 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="max-height:100vh" >
+
+<div class="flex overflow-hidden flex-col bg-white">
+  <div class="flex overflow-hidden flex-col flex-1 w-full max-md:max-w-full">
+    <header class="flex flex-wrap gap-10 justify-between items-center p-4 w-full text-sm font-medium text-center text-white max-md:max-w-full">
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a02d8c8557685637d4f1fee627feefca258d39eb6484263da638e144de00645b?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="Company Logo" class="object-contain shrink-0 self-stretch my-auto w-10 aspect-square" />
+      <nav class="flex gap-3 items-center self-stretch my-auto">
+        <button class="gap-2 self-stretch px-4 my-auto bg-black bg-opacity-60 min-h-[36px] rounded-[999px]" tabindex="0">Log In</button>
+        <button class="gap-2 self-stretch px-4 my-auto bg-black bg-opacity-60 min-h-[36px] rounded-[999px]" tabindex="0">Sign Up</button>
+      </nav>
+    </header>
+
+
+    <div class="flex flex-wrap flex-1 border-t-2 border-black border-opacity-10 size-full max-md:max-w-full">
+      <aside class="flex flex-col p-4 border-r-2 border-black border-opacity-10 min-w-[240px] w-[360px]">
+        <form class="flex flex-col w-full" role="search">
+          <div class="flex overflow-hidden gap-10 justify-between items-center pr-2.5 pl-5 w-full text-base bg-black bg-opacity-10 min-h-[48px] rounded-[64px]">
+            <label for="searchInput" class="sr-only">Search via name</label>
+            <input type="search" id="searchInput" placeholder="Search via name" class="w-full bg-transparent border-none text-black text-opacity-60" />
+            <button type="submit" aria-label="Search" class="flex shrink-0 self-stretch my-auto w-7 h-7 rounded-full bg-black bg-opacity-10"></button>
+          </div>
+        </form>
+
+        <div class="flex gap-4 items-center mt-5 w-full text-base font-medium text-center">
+          <button class="gap-2 self-stretch px-4 my-auto whitespace-nowrap bg-white border border-solid border-black border-opacity-10 min-h-[40px] rounded-[999px] shadow-[0px_4px_9px_rgba(0,0,0,0.1)] text-black text-opacity-80" tabindex="0">All</button>
+          <button class="flex gap-2 justify-center items-center self-stretch px-4 my-auto whitespace-nowrap bg-black bg-opacity-10 min-h-[40px] rounded-[999px] text-black text-opacity-80" tabindex="0">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3dc572974c6d7dda774f6884e3075ea72cf79cd0b47ce7df76259d0d691d55c0?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+            <span>Investors</span>
+          </button>
+          <button class="flex gap-2 justify-center items-center self-stretch px-4 my-auto whitespace-nowrap bg-black bg-opacity-10 min-h-[40px] rounded-[999px] text-black text-opacity-80" tabindex="0">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3dc572974c6d7dda774f6884e3075ea72cf79cd0b47ce7df76259d0d691d55c0?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+            <span>Founders and</span>
+          </button>
+        </div>
+
+        <!-- Chat list continues with same structure but enhanced accessibility -->
+        <ul class="flex flex-col mt-5 w-full" role="list">
+          <!-- Each chat item follows same structure with enhanced accessibility -->
+          <li class="flex overflow-hidden gap-4 items-center px-6 py-4 w-full rounded-2xl bg-black bg-opacity-10" tabindex="0" role="button">
+            <div class="flex shrink-0 self-stretch my-auto w-12 h-12 rounded-full bg-black bg-opacity-10" aria-hidden="true"></div>
+            <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0">
+              <div class="flex gap-1 items-center w-full text-base font-medium text-black text-opacity-80">
+                <span>Lyncy Bot</span>
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/188285b1680d6ff05dd2aa66f57396d7f679fbfb2bf2b8d4683a4ca093bc7c41?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="Verified" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square" />
+              </div>
+              <div class="text-sm text-black text-opacity-50">Pencil shadow configuration.</div>
+            </div>
+          </li>
+<div class="flex gap-4 items-center px-6 py-4 w-full max-md:px-5" role="listitem">
+      <div class="flex shrink-0 self-stretch my-auto w-12 h-12 rounded-full bg-black bg-opacity-10" role="img" aria-label="Arjun Mehta avatar"></div>
+      <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0">
+        <div class="flex gap-1 items-center w-full text-base font-medium text-black text-opacity-80">
+          <span>Arjun Mehta</span>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/188285b1680d6ff05dd2aa66f57396d7f679fbfb2bf2b8d4683a4ca093bc7c41?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square"/>
+        </div>
+        <div class="text-sm text-black text-opacity-50">Pencil component shadow settings.</div>
+      </div>
+    </div>
+
+    <div class="flex overflow-hidden gap-4 items-center px-6 py-4 w-full max-md:px-5" role="listitem">
+      <div class="flex shrink-0 self-stretch my-auto w-12 h-12 rounded-full bg-black bg-opacity-10" role="img" aria-label="Priya Nair avatar"></div>
+      <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0">
+        <div class="text-base font-medium text-black text-opacity-80">Priya Nair</div>
+        <div class="text-sm text-black text-opacity-50">Adjusting pencil shadow parameters.</div>
+      </div>
+    </div>
+
+    <div class="flex overflow-hidden gap-4 items-center px-6 py-4 w-full max-md:px-5" role="listitem">
+      <div class="flex shrink-0 self-stretch my-auto w-12 h-12 rounded-full bg-black bg-opacity-10" role="img" aria-label="Anjali Reddy avatar"></div>
+      <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0">
+        <div class="flex gap-1 items-center w-full text-base font-medium text-black text-opacity-80">
+          <span>Anjali Reddy</span>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/188285b1680d6ff05dd2aa66f57396d7f679fbfb2bf2b8d4683a4ca093bc7c41?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square"/>
+        </div>
+        <div class="text-sm text-black text-opacity-50">Shadow settings for pencil component.</div>
+      </div>
+    </div>
+
+    <div class="flex overflow-hidden gap-4 items-center px-6 py-4 w-full max-md:px-5" role="listitem">
+      <div class="flex shrink-0 self-stretch my-auto w-12 h-12 rounded-full bg-black bg-opacity-10" role="img" aria-label="Ravi Kumar avatar"></div>
+      <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0">
+        <div class="flex gap-1 items-center w-full text-base font-medium text-black text-opacity-80">
+          <span>Ravi Kumar</span>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/188285b1680d6ff05dd2aa66f57396d7f679fbfb2bf2b8d4683a4ca093bc7c41?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square"/>
+        </div>
+        <div class="text-sm text-black text-opacity-50">Configuring pencil component shadows.</div>
+      </div>
+    </div>
+
+    <div class="flex overflow-hidden gap-4 items-center px-6 py-4 w-full max-md:px-5" role="listitem">
+      <div class="flex shrink-0 self-stretch my-auto w-12 h-12 rounded-full bg-black bg-opacity-10" role="img" aria-label="Sneha Iyer avatar"></div>
+      <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0">
+        <div class="text-base font-medium text-black text-opacity-80">Sneha Iyer</div>
+        <div class="text-sm text-black text-opacity-50">Pencil shadow adjustments.</div>
+      </div>
+    </div>
+
+    <div class="flex overflow-hidden gap-4 items-center px-6 py-4 w-full max-md:px-5" role="listitem">
+      <div class="flex shrink-0 self-stretch my-auto w-12 h-12 rounded-full bg-black bg-opacity-10" role="img" aria-label="Vikram Singh avatar"></div>
+      <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0">
+        <div class="flex gap-1 items-center w-full text-base font-medium text-black text-opacity-80">
+          <span>Vikram Singh</span>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff3777722b69dc1d09c146eecb8135bfe28fb6dd3cb5e98602cd0aec8c68ebeb?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square"/>
+        </div>
+        <div class="text-sm text-black text-opacity-50">Pencil component shadow options.</div>
+      </div>
+    </div>
+
+    <div class="flex overflow-hidden gap-4 items-center px-6 py-4 w-full max-md:px-5" role="listitem">
+      <div class="flex shrink-0 self-stretch my-auto w-12 h-12 rounded-full bg-black bg-opacity-10" role="img" aria-label="Neha Joshi avatar"></div>
+      <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0">
+        <div class="flex gap-1 items-center w-full text-base font-medium text-black text-opacity-80">
+          <span>Neha Joshi</span>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff3777722b69dc1d09c146eecb8135bfe28fb6dd3cb5e98602cd0aec8c68ebeb?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square"/>
+        </div>
+        <div class="text-sm text-black text-opacity-50">Shadow settings for auto pencil.</div>
+      </div>
+    </div>
+
+    <div class="flex overflow-hidden gap-4 items-center px-6 py-4 w-full max-md:px-5" role="listitem">
+      <div class="flex shrink-0 self-stretch my-auto w-12 h-12 rounded-full bg-black bg-opacity-10" role="img" aria-label="Amit Desai avatar"></div>
+      <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0">
+        <div class="flex gap-1 items-center w-full text-base font-medium text-black text-opacity-80">
+          <span>Amit Desai</span>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff3777722b69dc1d09c146eecb8135bfe28fb6dd3cb5e98602cd0aec8c68ebeb?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square"/>
+        </div>
+        <div class="text-sm text-black text-opacity-50">Pencil shadow setup.</div>
+      </div>
+    </div>        </ul>
+      </aside>
+
+      <main class="flex flex-col flex-1 shrink pb-6 basis-16 min-w-[240px] max-md:max-w-full">
+        <!-- Chat header -->
+        <div class="flex flex-wrap gap-4 items-center px-6 py-4 w-full border-b-2 border-black border-opacity-10 max-md:px-5 max-md:max-w-full">
+          <div class="flex shrink-0 self-stretch my-auto w-12 h-12 rounded-full bg-black bg-opacity-10" aria-hidden="true"></div>
+          <div class="flex flex-col flex-1 shrink self-stretch my-auto basis-0 min-w-[240px] max-md:max-w-full">
+            <div class="flex gap-1 items-center w-full text-base font-medium text-black text-opacity-80">
+              <span>Arjun Mehta</span>
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/edd7605bfe81cb307b78b273ee3895b771d56dcfb711db9d904c978923e984dd?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="Verified" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square" />
+            </div>
+            <div class="text-sm text-black text-opacity-50">Pencil component shadow settings.</div>
+          </div>
+          <button aria-label="Video Call" class="flex items-center justify-center w-10 aspect-square">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c25377e91cb942c67af6cf569683ea80b31c833c1a3fc0fb5cba536c219f6cf9?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain w-10 aspect-square" />
+          </button>
+          <button aria-label="More Options" class="flex items-center justify-center w-6 aspect-square">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/63cdeb98c52f5300a7be221dfaa2c3ca2b1fe27a35e1e1cf9016a901e8ac4e39?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain w-6 aspect-square" />
+          </button>
+        </div>
+
+        <!-- Chat content -->
+        <div class="flex flex-col flex-1 justify-between px-6 mt-6 w-full max-md:px-5 max-md:max-w-full">
+          <!-- Message content -->
+          <div class="flex flex-col w-full text-sm leading-5 max-md:max-w-full">
+      <div
+        class="flex flex-col pr-20 w-full text-zinc-900 max-md:pr-5 max-md:max-w-full"
+      >
+        <div
+          class="flex flex-col p-6 w-full bg-white rounded-xl border border-solid border-black border-opacity-10 max-md:px-5 max-md:max-w-full"
+        >
+          <div
+            class="flex flex-col w-full font-semibold leading-none max-md:max-w-full"
+          >
+            <div class="max-md:max-w-full">Hi there 👋</div>
+            <div class="max-md:max-w-full">I am Lyncy Bot.</div>
+          </div>
+          <div class="mt-3 max-md:max-w-full">
+            I struggle to manage my DMs over LinkedIn/Instagram and have created
+            this channel to connect with people who want to get in touch.
+          </div>
+          <div class="mt-3 max-md:max-w-full">
+            I am building 'The 1% Club' and always looking for super smart,
+            hard-working, hungry people (Gen Z included) to join our team. If
+            you are excited to solve for India's financial literacy, I can't
+            wait to hear from you.
+          </div>
+          <div class="mt-3 max-md:max-w-full">
+            If you wish to discuss a brand deal, share some details about your
+            brand and l'll respond if there's a fit. Please avoid reaching out
+            to me for college-events since l've stopped doing that a while back.
+          </div>
+        </div>
+      </div>          
+	  </div>
+      <div
+        class="flex flex-col pl-20 mt-6 w-full text-white max-md:pl-5 max-md:max-w-full"
+      >
+        <div
+          class="p-6 w-full rounded-xl bg-black bg-opacity-70 max-md:px-5 max-md:max-w-full"
+        >
+          Layout auto frame team content content strikethrough auto shadow.
+          Community scrolling effect fill pen edit underline prototype asset
+          inspect. Boolean image move opacity text subtract font flows bold
+          prototype.
+        </div>
+      </div>
+          <!-- Message input -->
+          <form class="flex flex-col mt-44 w-full max-md:mt-10 max-md:max-w-full" role="form">
+            <div class="flex flex-wrap gap-6 items-center w-full max-md:max-w-full">
+              <div class="flex gap-3 items-center self-stretch my-auto text-base font-medium text-center min-w-[240px]">
+                <button type="button" class="flex gap-1 justify-center items-center self-stretch pr-2 pl-4 my-auto bg-white border border-solid border-black border-opacity-10 min-h-[40px] rounded-[999px]" tabindex="0">
+                  <span>Consulting Opportunity</span>
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc8bcca9426e2a9338e6f6daeb033e549c301160fe5dd8dccb7056326749610b?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+                </button>
+                <button type="button" class="flex gap-2 justify-center items-center self-stretch px-4 my-auto border border-solid border-black border-opacity-10 min-h-[40px] rounded-[999px]" tabindex="0">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2677ec094125eac47df501ae5c3801a5c4a0e27cf9b3aa075856bf5544d13513?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+                  <span>Generate</span>
+                </button>
+              </div>
+            </div>
+            
+            <div class="flex overflow-hidden flex-wrap gap-10 justify-between items-center pr-2 pl-5 mt-4 w-full min-h-[56px] rounded-[64px] bg-black bg-opacity-10">
+              <label for="messageInput" class="sr-only">Type message</label>
+              <input type="text" id="messageInput" placeholder="Type message here" class="flex-1 bg-transparent border-none text-black text-opacity-60" />
+              <button type="submit" aria-label="Send message" class="flex shrink-0 self-stretch my-auto w-10 h-10 rounded-full bg-black bg-opacity-60"></button>
+            </div>
+          </form>
+        </div>
+      </main>
+
+      <aside class="flex flex-col px-8 py-4 border-l-2 border-black border-opacity-10 min-w-[240px] w-[360px] max-md:px-5">
+        <!-- Profile section -->
+        <div class="flex flex-col w-full">
+          <div class="flex self-center rounded-full aspect-square bg-black bg-opacity-10 min-h-[200px] w-[200px]" role="img" aria-label="Profile picture"></div>
+		      <section class="flex flex-col items-center" aria-label="User Profile">
+      <div class="flex flex-col items-center">
+        <div class="flex gap-1 items-center text-xl font-semibold text-black text-opacity-80">
+          <div class="self-stretch my-auto">Arjun Mehta</div>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/becaeb2ee5806d196daed5afa65b91f0f37e33c851138c948e181f55b093052b?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="Verification Badge" class="object-contain shrink-0 self-stretch my-auto w-5 aspect-square" />
+        </div>
+        <div class="mt-1.5 text-base font-medium text-black text-opacity-60">Senior Marketing Manager</div>
+      </div>
+      <div class="mt-3 text-sm font-medium text-center text-black text-opacity-40">California, USA</div>
+    </section>
+          <div class="flex flex-col items-center mt-6 w-full">
+            <button class="flex gap-2 justify-center items-center px-4 mt-4 text-base font-medium text-center border border-solid border-black border-opacity-10 min-h-[40px] rounded-[999px] text-black text-opacity-80" tabindex="0">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4de61869a1c4ab3dd28c31aebae11f74fa401c3f01e8526ac4f71cdc62b305af?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512" alt="" class="object-contain shrink-0 self-stretch my-auto w-6 aspect-square" />
+              <span>Talk to my Assistant</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Experience section -->
+<img
+    loading="lazy"
+    src="https://cdn.builder.io/api/v1/image/assets/TEMP/9e206ca4a17d04a20da592e73202f3416857444bf803ad226299fbbfef8f2d39?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512"
+    class="object-contain mt-8 w-full aspect-[142.86]"
+    alt="Profile Statistics Graph"
+  />
+  
+
+  <div class="flex flex-col mt-8 w-full font-medium">
+    <h2 class="text-sm text-black text-opacity-50">Experience</h2>
+    <div class="flex gap-3 items-start mt-5 w-full">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3ec8cf08beab61aa3fc129c3486aa465df6b593e14056ff4719cc827a03237d1?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512"
+        class="object-contain shrink-0 w-8 rounded aspect-square"
+        alt="Udemy Corp Logo"
+      />
+      <div class="flex flex-col justify-center items-start">
+        <div class="text-base text-center text-black text-opacity-80">
+          Senior Marketing Manager
+        </div>
+        <div class="flex flex-col mt-1.5 text-sm">
+          <div class="self-start text-center text-black text-opacity-80">
+            Udemy Corp.
+          </div>
+          <div class="mt-1 text-black text-opacity-60">2023 - Present</div>
+        </div>
+      </div>
+    </div>
+    <div class="flex gap-3 items-start mt-5 w-full">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a2b5e95b9a5114758337bd5a000fb2c70d2a8d06c0619d0969e2830a76821dad?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512"
+        class="object-contain shrink-0 w-8 rounded aspect-square"
+        alt="Google Logo"
+      />
+      <div class="flex flex-col justify-center items-start">
+        <div class="text-base text-center text-black text-opacity-80">
+          Marketing Manager
+        </div>
+        <div class="flex flex-col mt-1.5 text-sm">
+          <div class="self-start text-center text-black text-opacity-80">
+            Google
+          </div>
+          <div class="mt-1 text-black text-opacity-60">2020 - 2023</div>
+        </div>
+      </div>
+    </div>
+    <div class="flex gap-3 items-start mt-5 w-full">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/09d74c6fdd109c3d659cf15996e1f50e1d50cd4f39e89efbfd50e6f41849ad02?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512"
+        class="object-contain shrink-0 w-8 rounded aspect-square"
+        alt="Amazon Logo"
+      />
+      <div class="flex flex-col justify-center items-start">
+        <div class="text-base text-center text-black text-opacity-80">
+          Marketing Assistant
+        </div>
+        <div class="flex flex-col mt-1.5 text-sm">
+          <div class="self-start text-center text-black text-opacity-80">
+            Amazon
+          </div>
+          <div class="mt-1 text-black text-opacity-60">2015 - 2020</div>
+        </div>
+      </div>
+    </div>
+    <h2 class="mt-5 text-sm text-black text-opacity-50">Education</h2>
+    <div class="flex gap-3 items-start mt-5 w-full">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a48c0c5bfa51b01e58c2da2a6c0679cbcffb5c1a957cca913c8a97ab775325e7?placeholderIfAbsent=true&apiKey=6d9ee1d316d94ae7b5f598be8dfe6512"
+        class="object-contain shrink-0 w-8 rounded aspect-square"
+        alt="Bradford University Logo"
+      />
+      <div class="flex flex-col justify-center">
+        <div
+          class="self-start text-base text-center text-black text-opacity-80"
+        >
+          MBA
+        </div>
+        <div class="flex flex-col mt-1.5 text-sm">
+          <div class="self-start text-center text-black text-opacity-80">
+            Bradford University
+          </div>
+          <div class="mt-1 text-black text-opacity-60">2011 - 2014</div>
+        </div>
+      </div>
+    </div>
+  </div
+      </aside>
+    </div>
+  </div>
+</div>
+</body>
+</html>
